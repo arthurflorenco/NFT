@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: auto;
+    border: none;
+    text-decoration: none;
+}
+
+.body {
+    background-color:black;
+    color: white;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+.navbar .container-fluid .collapse .nav-item .nav-link {
+    color: white;
+}
+
+.navbar .container-fluid .collapse .navbar-text .btn-login {
+    text-decoration: none;
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: solid;
+    border-color: #FFFFFF;
+}
+
+.hero {
+    display: flex;
+    padding-top: 50px;
+}
+
+.hero .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 200px;
+}
+
+.hero .content h1 {
+    font-weight: 800;
+    font-size: 140px;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #FF3337 0%, #F8CA53 32%, #009A8F 53%, #000 100%);
+}
+
+.hero .content .days {
+    color: grey;
+}
+
+.hero .content p {
+    font-size: 18px;
+}
+
+.hero .nft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .nft .info-nft {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.hero .nft .info-nft .one,
+.hero .nft .info-nft .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin: 15px;
+}
+
+.hero .nft .info-nft .one p,
+.hero .nft .info-nft .two p {
+    color: grey;
+    font-size: 16px;
+}
+
+.nft .form-nft .btn-buy {
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: solid;
+    border-color: #FFFFFF;
+    width: 100%;
+}
+
+/* Create account and Login */
+.body .container .form-acc{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 18px;
+}
+.container .form-acc input{
+    padding: 7px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: dimgray;
+    font-size: 14px;
+}
+
+.container .form-acc .btn-submit{
+    background: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    border: solid;
+    border-color: #FFFFFF;
+    font-size: 16px;
+}
+
+/* Admin area and cart*/
+.body .container .btn-customer{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.body .container .btn-customer button{
+    border: solid;
+    border-color: #FFFFFF;
+    padding: 10px;
+    font-size: 16px;
+    background: none;
+    border-radius: 5px;
+    color: white;
+    margin: 20px 20px 20px 0;
+}
+
+.body .container .cards{
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: dimgray;
+}
+
+/* Checkout */
+.body  .checkout form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding: 20px;
+    background-color: dimgrey;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+.body  .checkout form button, .body  .checkout form select, .body  .checkout form input{
+    margin: 10px;
+}
